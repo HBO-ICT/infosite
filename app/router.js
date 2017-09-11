@@ -7,6 +7,12 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('software');
+  this.route('business');
+  this.route('service-management');
+  this.route('werkveld', function() {
+    this.route('moneybird');
+  });
 });
 
 export default Router;

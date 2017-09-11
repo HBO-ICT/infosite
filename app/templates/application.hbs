@@ -1,11 +1,15 @@
 {{#bs-navbar class="navbar-fixed-top" type=(if inverse 'inverse') fluid=fluid collapsed=collapsed onCollapse=(action (mut collapsed) true) onExpand=(action (mut collapsed) false) as |navbar|}}
   <div class="navbar-header">
     {{navbar.toggle}}
-    {{#link-to "index" class="navbar-brand"}}<img src="images/saxionlogo.png" alt="Saxion logo" style="height: 30px; display: inline; margin-top: -4px;">HBO-ICT{{/link-to}}
+    {{#link-to "index" class="navbar-brand"}}<img src="images/saxionLogo.png" alt="Saxion logo" style="height: 30px; display: inline; margin-top: -4px;">HBO-ICT{{/link-to}}
   </div>
   {{#navbar.content}}
     {{#navbar.nav as |nav|}}
       {{#nav.item}}{{#nav.link-to "index"}}Home{{/nav.link-to}}{{/nav.item}}
+      {{#nav.item}}{{#nav.link-to "business"}}Business{{/nav.link-to}}{{/nav.item}}
+      {{#nav.item}}{{#nav.link-to "service-management"}}Service Management{{/nav.link-to}}{{/nav.item}}
+      {{#nav.item}}{{#nav.link-to "software"}}Software{{/nav.link-to}}{{/nav.item}}
+      {{#nav.item}}{{#nav.link-to "werkveld"}}Werkveld{{/nav.link-to}}{{/nav.item}}
     {{/navbar.nav}}
   {{/navbar.content}}
 {{/bs-navbar}}
