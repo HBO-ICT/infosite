@@ -1,0 +1,12 @@
+<div class="card">
+  {{#if image}}
+    <img class="card-img-top" src="{{image}}" alt="Studenten">
+  {{/if}}
+  <div class="card-body">
+    {{#if title}}
+      <h4 class="card-title">{{title}}</h4>
+    {{/if}}
+    <!-- <p class="card-text"></p> -->
+    {{yield}}
+  </div>
+</div>
