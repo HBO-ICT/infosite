@@ -1,7 +1,7 @@
 {{#bs-navbar class="navbar-fixed-top" type=(if inverse 'inverse') fluid=fluid collapsed=collapsed onCollapse=(action (mut collapsed) true) onExpand=(action (mut collapsed) false) as |navbar|}}
   <div class="navbar-header">
     {{navbar.toggle}}
-    {{#link-to "index" class="navbar-brand"}}<img src="images/saxionLogo.png" alt="Saxion logo" style="height: 30px; display: inline; margin-top: -4px;">HBO-ICT{{/link-to}}
+    {{#link-to "index" class="navbar-brand"}}<img src="/images/saxionLogo.png" alt="Saxion logo" style="height: 30px; display: inline; margin-top: -4px;">HBO-ICT{{/link-to}}
   </div>
   {{#navbar.content}}
     {{#navbar.nav as |nav|}}
