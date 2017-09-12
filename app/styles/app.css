@@ -1,19 +1,56 @@
-.card {
+.card-title {
+  border-bottom: solid 5px #a6ce39;
+}
+
+.article-card .card {
   margin-top: 50px;
 }
-.card-body {
+.article-card .card-body {
   margin-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
-.card-img-top {
+.article-card .card-img-top {
   display: block;
   width: 100%;
   height: 50vh;
   object-fit: cover;
 }
-.card-title {
-  border-bottom: solid 5px #a6ce39;
+
+.compagny-card {
+  background-color: #f8f8f8;
+  background-clip: content-box;
+  margin: 15px 0;
+}
+.compagny-card .card-body {
+  padding: 0 5px 5px 5px;
+  border: solid 0 1px 1px 1px #e7e7e7;
+}
+.compagny-card .card-img-top {
+  display: block;
+  width: 100%;
+  height: 125px;
+  object-fit: cover;
+}
+
+.btn {
+  border-radius: 0;
+  color: #ffffff;
+}
+.btn-primary {
+  background-color: #a6ce39;
+  border: solid 1px #e7e7e7;
+}
+.btn-primary:hover {
+  background-color: #9dc435;
+  border: solid 1px #e7e7e7;
+  color: #ffffff;
+}
+.btn-primary:active {
+  background-color: #9dc435 !important;
+  border: solid 1px #9dc435 !important;
+  box-shadow: 0 0 5px 2px #a6ce39;
+  color: #ffffff;
 }
 
 em {
@@ -43,4 +80,9 @@ em {
 .footer {
   height: 100px;
   background-color: #e7e7e7;
+  margin-top: 50px;
+}
+.footer-text {
+  padding-top: 20px;
+  text-align: center;
 }
