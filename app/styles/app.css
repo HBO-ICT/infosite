@@ -82,9 +82,10 @@ h5 {
 
 em {
   border-left: solid 5px #e7e7e7;
-  margin-left: 5px;
-  padding: 5px;
+  margin: 5px;
+  padding: 10px;
   font-size: 125%;
+  display: inline-block;
 }
 
 .container-fluid {
