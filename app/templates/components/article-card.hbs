@@ -1,4 +1,4 @@
-<div class="card article-card row">
+<div class="card article-card">
   {{#if image}}
     <img class="card-img-top col-md-12" src="{{image}}" alt="{{title}}">
   {{/if}}
@@ -6,7 +6,6 @@
     {{#if title}}
       <h1 class="card-title">{{title}}</h1>
     {{/if}}
-    <!-- <p class="card-text"></p> -->
     {{yield}}
   </div>
 </div>
