@@ -14,6 +14,7 @@ Router.map(function() {
     this.route('moneybird');
     this.route('thales');
     this.route('switch');
+    this.route('denko-ict');
   });
 });
 
