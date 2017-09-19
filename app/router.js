@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('service-management');
   this.route('werkveld', function() {
     this.route('moneybird');
+    this.route('switch');
   });
 });
 
