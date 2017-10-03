@@ -11,7 +11,10 @@ h5 {
 .card-title {
   border-bottom: solid 5px #a6ce39;
 }
-
+.title-video {
+  color: #FFFFFF;
+  margin-top: -45px;
+}
 .article-card .card {
   margin-top: 50px;
 }
@@ -26,6 +29,19 @@ h5 {
   height: 50vh;
   object-fit: cover;
   padding: 0;
+}
+.article-card .card-video-top {
+  display: block;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  padding: 0;
+}
+.article-card .gradient-overlay {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background: linear-gradient(to bottom,transparent 50%,rgba(0, 0, 0, 0.25) 100%);
 }
 .article-card .img-inline-right {
   width: 25%;
