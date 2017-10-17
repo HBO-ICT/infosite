@@ -135,6 +135,10 @@ em {
   text-align: center;
 }
 
+.table > thead > tr > th {
+    border-bottom: 2px solid #a6ce39;
+}
+
 @media screen and (max-width: 768px) {
   .article-card .img-inline-right {
     margin-right: 0;
@@ -149,7 +153,4 @@ em {
   .article-card .gradient-overlay {
     margin-top: -50vh;
   }
-}
-.title{
-  color: #A6CE39;
 }

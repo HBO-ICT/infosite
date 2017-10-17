@@ -13,8 +13,8 @@ Router.map(function() {
   this.route('werkveld', function() {
     this.route('moneybird');
     this.route('thales');
-    this.route('switch');
     this.route('denko-ict');
+    this.route('previder');
   });
 });
 
